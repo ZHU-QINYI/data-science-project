@@ -12,6 +12,20 @@ dataset, answering one question:
 
 ---
 
+## In 30 seconds
+
+| | |
+|---|---|
+| **Purpose** | Test whether four cheap body measurements can identify a penguin's species, and find which measurement matters most. |
+| **Data** | 344 Palmer Archipelago penguins (3 species, 3 islands, 2007–2009), CC0 licence. 342 used after dropping 2 rows with missing measurements. |
+| **Method** | 5-fold stratified cross-validation of a scaled logistic regression and a 400-tree random forest. |
+| **Main finding** | Species is almost perfectly predictable from measurements alone — **98.8% ± 1.1%** cross-validated accuracy — and **bill length** is the most informative feature (importance 0.42). |
+| **Limitation** | Species and island are confounded (Gentoo only on Biscoe, Chinstrap only on Dream), so this describes **these three islands**, not penguins in general. |
+
+**Run it in three commands:** `pip install -r requirements.txt` → `python analysis.py` → open `figures/`.
+
+---
+
 ## The problem
 
 Morphometric measurements are cheap to collect, while genetic or behavioural
