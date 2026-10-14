@@ -1,6 +1,5 @@
 Palmer penguins - analysis summary
 ========================================
-Author            : ZHU QINYI (MC64890)
 Raw rows          : 344
 Analysed rows     : 342 (2 dropped for missing measurements)
 Species           : Adelie, Chinstrap, Gentoo

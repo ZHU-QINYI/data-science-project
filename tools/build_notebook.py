@@ -178,7 +178,6 @@ def build():
         md("""
 # Can body measurements predict penguin species?
 
-**Author:** ZHU QINYI (MC64890)
 **Course:** CISC7204 - Practice 09, Data Science Portfolio
 
 ## Research question

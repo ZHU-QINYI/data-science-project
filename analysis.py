@@ -26,7 +26,6 @@ Outputs
     results/metrics.json   (model metrics, machine readable)
     results/summary.txt    (human readable summary of the run)
 
-Author: ZHU QINYI (MC64890)
 """
 
 from __future__ import print_function
@@ -405,7 +404,6 @@ def main():
     lines = [
         "Palmer penguins - analysis summary",
         "=" * 40,
-        "Author            : ZHU QINYI (MC64890)",
         "Raw rows          : %d" % len(raw),
         "Analysed rows     : %d (%d dropped for missing measurements)"
         % (len(df), n_dropped),

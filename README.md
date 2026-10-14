@@ -7,7 +7,7 @@ dataset, answering one question:
 > mass, can we identify its species — and which measurement carries the most
 > information?**
 
-**Author:** ZHU QINYI (MC64890) · **Course:** CISC7204 Practice 09
+**Course:** CISC7204 Practice 09
 **Status:** ✅ Completed
 
 ---
