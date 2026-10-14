@@ -1,0 +1,16 @@
+# Core analysis stack.
+# Pinned to the versions the analysis was developed and verified against.
+pandas==1.0.5
+numpy==1.18.5
+scikit-learn==0.23.1
+scipy==1.5.0
+
+# Visualisation
+matplotlib==3.2.2
+seaborn==0.10.1
+
+# Notebook support (only needed to open notebooks/penguins_analysis.ipynb)
+jupyter==1.0.0
+notebook==6.0.3
+nbformat==5.0.7
+nbconvert==5.6.1

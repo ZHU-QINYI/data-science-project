@@ -1,0 +1,53 @@
+# ---- Secrets: never commit these ----
+# Explicitly listed so an accidental `git add -A` cannot leak credentials.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets.json
+credentials.json
+token.txt
+*_token*
+*apikey*
+*api_key*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter / IPython ----
+# Kernel runtime files; the notebook itself is committed WITH outputs so it
+# renders on GitHub, but stray checkpoints and runtime state are not.
+.ipynb_checkpoints/
+.jupyter/
+*.ipynb_checkpoints
+
+# ---- Tooling caches ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- OS / editor noise ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~

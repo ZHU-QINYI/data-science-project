@@ -1,0 +1,21 @@
+Palmer penguins - analysis summary
+========================================
+Author            : ZHU QINYI (MC64890)
+Raw rows          : 344
+Analysed rows     : 342 (2 dropped for missing measurements)
+Species           : Adelie, Chinstrap, Gentoo
+Features          : bill_length_mm, bill_depth_mm, flipper_length_mm, body_mass_g
+
+Headline result   : Logistic regression achieves 98.8% 5-fold cross-validated accuracy
+                    (held-out test accuracy 100.0%)
+Top feature       : bill_length_mm
+
+Mean measurements per species:
+           bill_length_mm  bill_depth_mm  flipper_length_mm  body_mass_g
+species                                                                 
+Adelie               38.8           18.3              190.0       3700.7
+Chinstrap            48.8           18.4              195.8       3733.1
+Gentoo               47.5           15.0              217.2       5076.0
+
+Limitation        : sex is missing for 9 rows, and Chinstrap overlaps Adelie
+                    on bill dimensions, so 2-3 individuals remain hard to separate.

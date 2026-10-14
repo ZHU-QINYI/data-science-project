@@ -1,0 +1,82 @@
+{
+  "confusion_matrix": [
+    [
+      148,
+      3,
+      0
+    ],
+    [
+      4,
+      64,
+      0
+    ],
+    [
+      0,
+      1,
+      122
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "Adelie",
+    "Chinstrap",
+    "Gentoo"
+  ],
+  "dataset": "Palmer Archipelago (Antarctica) penguins",
+  "feature_importance": {
+    "bill_depth_mm": 0.16721657496861503,
+    "bill_length_mm": 0.41762984597110253,
+    "body_mass_g": 0.0647570134076934,
+    "flipper_length_mm": 0.35039656565258914
+  },
+  "features": [
+    "bill_length_mm",
+    "bill_depth_mm",
+    "flipper_length_mm",
+    "body_mass_g"
+  ],
+  "license": "CC0 1.0 (public domain dedication), via Gorman, Williams & Fraser (2014)",
+  "mean_measurements_per_species": {
+    "bill_depth_mm": {
+      "Adelie": 18.35,
+      "Chinstrap": 18.42,
+      "Gentoo": 14.98
+    },
+    "bill_length_mm": {
+      "Adelie": 38.79,
+      "Chinstrap": 48.83,
+      "Gentoo": 47.5
+    },
+    "body_mass_g": {
+      "Adelie": 3700.66,
+      "Chinstrap": 3733.09,
+      "Gentoo": 5076.02
+    },
+    "flipper_length_mm": {
+      "Adelie": 189.95,
+      "Chinstrap": 195.82,
+      "Gentoo": 217.19
+    }
+  },
+  "models": {
+    "Logistic regression": {
+      "cv_accuracy_mean": 0.9882779198635976,
+      "cv_accuracy_std": 0.010993807100854342,
+      "holdout_accuracy": 1.0,
+      "n_test": 86,
+      "name": "Logistic regression"
+    },
+    "Random forest": {
+      "cv_accuracy_mean": 0.9765558397271953,
+      "cv_accuracy_std": 0.011828932509569475,
+      "holdout_accuracy": 1.0,
+      "n_test": 86,
+      "name": "Random forest"
+    }
+  },
+  "n_analysed": 342,
+  "n_dropped_missing_measurements": 2,
+  "n_raw": 344,
+  "random_state": 42,
+  "source": "https://allisonhorst.github.io/palmerpenguins/",
+  "target": "species"
+}
